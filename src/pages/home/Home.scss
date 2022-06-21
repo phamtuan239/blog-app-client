@@ -1,0 +1,10 @@
+@import "~bootstrap/scss/bootstrap";
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination-bar {
+  display: flex;
+  justify-content: center;
+}

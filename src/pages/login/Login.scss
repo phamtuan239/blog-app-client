@@ -1,0 +1,63 @@
+@import "~bootstrap/scss/bootstrap";
+
+.login {
+  height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.014),
+      rgba(255, 255, 255, 0.041)
+    ),
+    url("https://www.processmaker.com/wp-content/uploads/2020/10/citizen-developer-scaled.jpg");
+  background-size: cover;
+}
+
+.loginTitle {
+  font-size: 50px;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-form {
+  background: #fafafa;
+  padding: 35px 40px;
+  border-radius: 5px;
+}
+
+@mixin variant($color, $background) {
+  color: $color !important;
+  background-color: $background !important;
+  border-color: $background !important;
+}

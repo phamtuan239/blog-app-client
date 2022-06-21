@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+
+.single {
+  display: flex;
+
+  p {
+    font-size: 20px !important;
+  }
+
+  ul li{
+    list-style: disc !important;
+  }
+
+  ol li{
+    list-style: decimal !important;
+  }
+
+  li {
+    font-size: 18px !important;
+  }
+}

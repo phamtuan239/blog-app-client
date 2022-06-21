@@ -1,0 +1,30 @@
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.carduser {
+  display: flex;
+}
+
+.carduser__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.carduser__info {
+  margin: 4px 12px;
+}
+
+.carduser__info h6 {
+  font-size: 16px;
+  text-align: initial;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.carduser__info small{
+  font-size: 16px;
+}

@@ -1,0 +1,129 @@
+@import "~bootstrap/scss/bootstrap";
+
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.top a {
+  text-decoration: none;
+  color: #444;
+}
+
+.top a:hover {
+  color: gray;
+}
+
+.topBar {
+  flex: 3;
+  display: none;
+}
+
+.topBar button {
+  border: 0px;
+  background: transparent;
+}
+
+.topTitle {
+  flex: 3;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+  display: none;
+}
+
+.topLeft,
+.topRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+
+.topCenter {
+  flex: 5;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topListItem:hover {
+  color: gray;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+}
+
+.link {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.form-search {
+  position: relative;
+}
+
+.form-search input {
+  border-radius: 50px !important;
+}
+
+button#dropdown-custom-components {
+  background: white !important;
+  border: 0px;
+  display: flex;
+  padding: 0px 0px;
+}
+
+button#dropdown-custom-components::after {
+  display: none;
+}
+
+button#dropdown-custom-components img{
+  margin: 0px;
+}
+
+button#dropdown-custom-components:focus {
+  box-shadow: 0px 0px 0px !important;
+  outline: 0px !important;
+}

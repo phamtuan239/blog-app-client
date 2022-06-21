@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+
+.posts {
+  flex: 9 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin: 30px 10px;
+}
+
+.tool {
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  padding: 10px 0px;
+  z-index: 10;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
